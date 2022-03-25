@@ -15,4 +15,3 @@ class SortInfo:
     def create_spreadsheet(self, crypto, spreadsheet_writer):
         self.dataframe.to_excel(spreadsheet_writer, sheet_name=f'{crypto}', index=False,
                                 header=True)
-

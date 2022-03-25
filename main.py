@@ -43,7 +43,7 @@ for crypt in list_crypt:
 
     save_files = SortInfo(dict_crypto_info, total_dict_crypto_info)
     save_files.create_spreadsheet(crypt, writer)
-    print(f'{crypt} succesful')
+    print(f'{crypt} successful')
     time.sleep(1)
 
 writer.save()
@@ -51,4 +51,3 @@ dict_crypto_info = {}
 
 save_files = SortInfo(dict_crypto_info, total_dict_crypto_info)
 save_files.create_csv(total_dict_crypto_info)
-
