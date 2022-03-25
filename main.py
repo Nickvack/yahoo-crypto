@@ -17,7 +17,7 @@ total_dict_crypto_info = {
         'Volume': []
     }
 list_crypt = []
-page_num = range(0, 300, 100)
+page_num = range(0, 7900, 100)
 crypto_list_link = 'https://finance.yahoo.com/cryptocurrencies/?count=100&offset='
 """
 To initialize the program. 
