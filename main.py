@@ -5,7 +5,7 @@ import time
 #
 #
 """
-The following are the following classes that will store and manipulate the information from the different websites.
+The following are the classes that will store and manipulate the information from the different websites.
 """
 total_dict_crypto_info = {
         'Date': [],
