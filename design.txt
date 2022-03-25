@@ -1,0 +1,17 @@
+Name: finance.Yahoo Cryptocurrency scraper
+Description: An app that allows the user to scrape the behavioral history of
+    the first 1000 Cryptocurrencies in popularity in USD. It will then store
+    the information a Dataframe and export it as CSV and xlsx files.
+    The website to be used will be:
+    https://finance.yahoo.com/quote/{crypto}/history?p={crypto}
+    where company is the Symbol for the desired company
+
+Classes: Scraper:
+            get_crypto_list():
+            create_req(url):
+            store_info(dict):
+            close_req():
+
+         SortInfo:
+            create_csv():
+            create_spreadsheet():
